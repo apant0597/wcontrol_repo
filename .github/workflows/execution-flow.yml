@@ -83,4 +83,4 @@ jobs:
       - name: Provide Message
         run: echo "FAILURE !!!"
       - name: Provide Logs
-        run: echo "${{ github }}"
+        run: echo "${{ toJSON(github) }}"
